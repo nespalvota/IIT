@@ -1,16 +1,4 @@
-/*import Home from "../components/Home";
-import Stuff from "../components/Stuff";
-import Contact from "../components/Contact";
-import Registration from "../components/Registration";
-import Login from "../components/Login";
-
-
-import React from "react";
-import ReactDOM from "react-dom";
-import Main from "./components/Main";
-*/
 //import { Route, NavLink, HashRouter } from "react-router-dom";
-var react = require("React");
 var express = require("express");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");

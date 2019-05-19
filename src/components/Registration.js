@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { FormErrors } from "./formErrors.js";
-import 
 
 class RegistrationForm extends Component {
   constructor(props) {
@@ -83,8 +82,9 @@ class RegistrationForm extends Component {
   errorClass(error) {
     return error.length === 0 ? "" : "has-error";
   }
-
+  //  neveikia
   addUser() {
+    /*
     app.post((req, res) => {
       User.create({
         username: req.body.username,
@@ -99,8 +99,10 @@ class RegistrationForm extends Component {
           res.redirect("/registration");
         });
     });
-
-    console.log("ADD USER");
+*/
+    if (this.state.formValid) {
+      console.log("ADD USER");
+    }
   }
 
   render() {
